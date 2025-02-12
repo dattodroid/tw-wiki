@@ -4,10 +4,6 @@ tags:
 ---
 # Azure IoTHub Connector
 
-## External Resources
-- PTC Help Center - [ThingWorx Azure IoT Hub Connector](https://support.ptc.com/help/thingworx/azure_connector_scm/en/){:target="\_blank"}
-- PTC Tutorial - [Connect the Azure MXChip Development Kit to Thingworx](https://community.ptc.com/t5/IoT-Tips/Azure-MXChip-Development-Kit-Learning-Path/ta-p/838928){:target="\_blank"}
-
 ## Overview
 
 Protocol adapter for integrating Azure IoT Hub and Azure Blob Storage with Thingworx.
@@ -202,3 +198,9 @@ classDiagram
     <<Thing>>
   }
 ```
+
+## External Resources
+- PTC Help Center - [ThingWorx Azure IoT Hub Connector](https://support.ptc.com/help/thingworx/azure_connector_scm/en/){:target="\_blank"}
+- PTC Tutorial - [Connect the Azure MXChip Development Kit to Thingworx](https://community.ptc.com/t5/IoT-Tips/Azure-MXChip-Development-Kit-Learning-Path/ta-p/838928){:target="\_blank"}
+- PTC Tutorial - [Connect Azure IoT Devices](https://community.ptc.com/t5/IoT-Tips/Connect-Azure-IoT-Devices-Part-1/ta-p/833021){:target="\_blank"}
+- PTC Tutorial - [Azure Connector 4 (Setup)](https://community.ptc.com/t5/IoT-Tips/Azure-Connector-4-Part-1/ta-p/834584){:target="\_blank"}
