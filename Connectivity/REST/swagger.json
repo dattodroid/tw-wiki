@@ -1,0 +1,53 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "description": "ThingWorx REST API",
+      "version": "1.0.0",
+      "title": "ThingWorx API"
+    },
+    "host": "your-thingworx-server:port",
+    "basePath": "/Thingworx",
+    "paths": {
+      "/Things/{thingName}/Properties/{propertyName}": {
+        "get": {
+          "summary": "Get Property Value",
+          "description": "Retrieve the value of a property for a specific Thing.",
+          "parameters": [
+            {
+              "name": "thingName",
+              "in": "path",
+              "required": true,
+              "type": "string",
+              "description": "Name of the Thing"
+            },
+            {
+              "name": "propertyName",
+              "in": "path",
+              "required": true,
+              "type": "string",
+              "description": "Name of the Property"
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Successful response",
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "value": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "400": {
+              "description": "Invalid input"
+            },
+            "404": {
+              "description": "Thing or Property not found"
+            }
+          }
+        }
+      }
+    }
+  }

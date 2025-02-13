@@ -1,0 +1,19 @@
+
+.md-typeset .md-tag {
+    font-size: min(.8em,.50rem);
+  }
+
+.md-grid {
+    max-width: 90%;
+ }
+
+.md-typeset a:not(.md-icon) {
+  &[href^="//"]::after,
+  &[href^="http://"]::after,
+  &[href^="https://"]::after {
+      content: "⧉";
+      font-size: smaller;
+      margin-left: .2em;
+      vertical-align: top;
+  }
+}
