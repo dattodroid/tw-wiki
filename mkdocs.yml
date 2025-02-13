@@ -40,6 +40,7 @@ plugins:
   - search
   - minify:
       minify_html: true
+  - swagger-ui-tag
   - tags:
       tags_file: tags.md
 
