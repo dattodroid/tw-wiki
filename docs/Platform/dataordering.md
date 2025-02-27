@@ -15,7 +15,7 @@ However, high concurrency can lead to requests and events being processed out of
 * Configurable at **Subscription** level
 	* Driven by the **Execute Events Sequentially** option on the Subscription
 	
-### Ordered Property writes (9.7+)
+### Ordered Property Writes (9.7+)
 
 * Applies to data pushed from AlwaysOn devices and Axeda agents using the `UpdateSubscribedPropertyValues` and  `UpdateSubscribedPropertyValuesBatched` services
 	* CSDK - `twApi_PushSubscribedProperties()`

@@ -17,3 +17,9 @@
       vertical-align: top;
   }
 }
+
+:root  > * {
+  --md-mermaid-sequence-box-bg-color: var(--md-code-bg-color);
+  --md-mermaid-sequence-note-bg-color:lightyellow;
+  --md-mermaid-sequence-note-border-color: #AAAA33;
+}
